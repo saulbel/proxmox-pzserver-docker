@@ -21,7 +21,7 @@ proxmox-pzserver-docker
      └── secrets.auto.tfvars
 ```
 ## Tasks to accomplish
-- The idea of this project is to use `terraform/ansible` to deploy and configure a `lxc` container, create a `project zomboid` on it using `docker` and share it with our friends easily using `tailscale`.
+- The idea of this project is to use `terraform/ansible` to deploy and configure a `lxc` container, create a `project zomboid` server on it using `docker` and share it with our friends easily using `tailscale`.
 
 ## How to setup this project locally
 - First we should download it with either `git clone` or as `.zip`.
