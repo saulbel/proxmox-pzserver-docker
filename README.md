@@ -60,7 +60,7 @@ To authenticate, visit:
 ````
 
 ## Step 3: install and configure docker/networking with ansible
-- Now we are gonna install `docker` and `docker-compose` using `ansible`. Remember that we have included the `ansible` ssh key in our lxc container so we just have to execute `install-docker.yaml`. The following part it is not mandatory because we are gonna use `tailscale` to play with our friends.
+- Now we are gonna install `docker` and `docker-compose` using `ansible`. Remember that we have included the `ansible` ssh key in our lxc container so we just have to execute `install-docker.yaml`.
 - (Optional) We will open some ports for our `project zomboid` server. This time we are gonna use `ufw` which is a wrapper for `iptables`. Again, we will just have to execute `install-and-configure-ufw.yaml`.
 ````
 $ ansible-playbook install-docker.yaml -i root@192.168.1.20,
